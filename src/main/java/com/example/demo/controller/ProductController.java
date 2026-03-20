@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500", allowCredentials = "true")
+@CrossOrigin(origins = "https://hello-im-bishal.github.io", allowCredentials = "true")
 @RequestMapping("/api/products")
 public class ProductController {
 

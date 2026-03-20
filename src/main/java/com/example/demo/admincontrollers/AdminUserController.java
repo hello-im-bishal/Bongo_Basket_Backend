@@ -19,7 +19,7 @@ import com.example.demo.entity.User;
 
 @RestController
 @RequestMapping("/admin/users")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://hello-im-bishal.github.io")
 public class AdminUserController {
 
     private final AdminUserService adminUserService;

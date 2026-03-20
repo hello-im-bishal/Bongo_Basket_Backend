@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500", allowCredentials = "true")
+@CrossOrigin(origins = "https://hello-im-bishal.github.io", allowCredentials = "true")
 @RequestMapping("/api/cart")
 public class CartController {
 

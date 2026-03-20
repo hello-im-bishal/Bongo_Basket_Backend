@@ -16,7 +16,7 @@ import com.example.demo.entity.User;
 import com.example.demo.service.AuthService;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = "https://hello-im-bishal.github.io")
 @RequestMapping("/api/auth")
 public class AuthController {
 

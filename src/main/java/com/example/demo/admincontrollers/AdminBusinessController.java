@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/admin/business")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://hello-im-bishal.github.io")
 public class AdminBusinessController {
 
     private final AdminBusinessService adminBusinessService;

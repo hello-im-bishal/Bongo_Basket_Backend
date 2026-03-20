@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/admin/orders")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://hello-im-bishal.github.io")
 public class AdminOrderController {
 
     private final AdminOrderService adminOrderService;

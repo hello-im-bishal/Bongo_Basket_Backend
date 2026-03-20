@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(originPatterns = "*", allowCredentials = "true") 
+@CrossOrigin(originPatterns = "https://hello-im-bishal.github.io", allowCredentials = "true") 
 @RequestMapping("/api/orders")
 public class OrderController {
 

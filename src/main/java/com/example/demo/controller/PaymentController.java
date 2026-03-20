@@ -18,7 +18,7 @@ import com.example.demo.service.PaymentService;
 import com.razorpay.RazorpayException;
 
 @RestController
-@CrossOrigin(origins = "*") // Updated for flexibility
+@CrossOrigin(origins = "https://hello-im-bishal.github.io") // Updated for flexibility
 @RequestMapping("/api/payment")
 public class PaymentController {
 

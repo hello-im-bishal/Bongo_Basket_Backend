@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/admin/products")
-@CrossOrigin(origins = "*") // Allow frontend calls
+@CrossOrigin(origins = "https://hello-im-bishal.github.io") // Allow frontend calls
 public class AdminProductController {
 
     private final AdminProductService adminProductService;
